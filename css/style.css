@@ -5,6 +5,28 @@
     padding: 0;
 }
 
+body {
+    text-align: center;
+}
+
+.container {
+    border: 1px solid black;
+    margin:auto;
+    background-color: bisque;
+    height: 12.5rem;
+    width: 600px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container div {
+    border: 1px solid black;
+    padding: 0.625rem;
+    background-color: aquamarine;
+}
+
 .hide {
     display: none;
 }
