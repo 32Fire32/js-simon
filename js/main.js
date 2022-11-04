@@ -29,7 +29,7 @@ for ( let i = 0; i < ranNamArr.length; i++){
 setTimeout(function(){
     contain.classList.add("hide");
     document.querySelector("h1").innerHTML = "???????????";
-}, 3000);
+}, 30000);
 
 // qui chiedo all'utente di scrivere i numeri che ricorda
 setTimeout(function(){
@@ -54,7 +54,7 @@ for ( let i = 0; i < ranNamArr.length; i++){
         contain.classList.remove("hide");
     }
 
-}, 4000);
+}, 30000);
 
 
 
